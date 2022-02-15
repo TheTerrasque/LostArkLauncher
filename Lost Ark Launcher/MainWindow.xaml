@@ -1,0 +1,22 @@
+﻿<Window x:Class="Lost_Ark_Launcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lost_Ark_Launcher"
+        mc:Ignorable="d"
+        Title="Lost Ark Launcher" Height="114" Width="308">
+    <Grid HorizontalAlignment="Center" Width="288" Height="71" VerticalAlignment="Top">
+        <Button x:Name="LaunchGameButton" Content="Launch Game" Margin="169,10,0,0" Click="LaunchGameButton_Click" Height="43" VerticalAlignment="Top" HorizontalAlignment="Left" Width="95"/>
+        <Border HorizontalAlignment="Left" Height="43" Margin="10,10,0,0" VerticalAlignment="Top">
+            <Grid>
+                <ComboBox x:Name="RegionChoice" HorizontalAlignment="Left" Margin="0,21,0,0" VerticalAlignment="Top" Width="147" SelectionChanged="RegionChoice_SelectionChanged" SelectedIndex="0">
+                    <ComboBoxItem Content="Europe" IsSelected="True" Tag="CE"/>
+                </ComboBox>
+                <TextBlock x:Name="RegionText" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Server Region" VerticalAlignment="Top"/>
+
+            </Grid>
+        </Border>
+
+    </Grid>
+</Window>

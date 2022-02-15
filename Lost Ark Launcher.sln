@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Ark Launcher", "Lost Ark Launcher\Lost Ark Launcher.csproj", "{B56B18BA-CD13-4C72-AC52-DB01BC6BAEE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		RElease 2|Any CPU = RElease 2|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B56B18BA-CD13-4C72-AC52-DB01BC6BAEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56B18BA-CD13-4C72-AC52-DB01BC6BAEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56B18BA-CD13-4C72-AC52-DB01BC6BAEE5}.RElease 2|Any CPU.ActiveCfg = RElease 2|Any CPU
+		{B56B18BA-CD13-4C72-AC52-DB01BC6BAEE5}.RElease 2|Any CPU.Build.0 = RElease 2|Any CPU
+		{B56B18BA-CD13-4C72-AC52-DB01BC6BAEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56B18BA-CD13-4C72-AC52-DB01BC6BAEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B51A188-7A72-4252-A135-A447F49533AB}
+	EndGlobalSection
+EndGlobal
