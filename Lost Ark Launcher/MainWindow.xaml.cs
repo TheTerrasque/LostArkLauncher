@@ -14,12 +14,12 @@ namespace Lost_Ark_Launcher
     {
         private string BasePath;
         const string ConfigFile = @"\EFGame\Config\UserOption.xml";
-        const string ExeFile = @"Binaries\Win64\Launch_Game.exe";
         const string XmlRegionPath = @"/UserOption/SaveAccountOptionData/RegionID";
         const int SteamGameId = 1599340;
 
         public static Dictionary<string, string> Regions = new Dictionary<string, string> {
-            {"Europe", "CE"},
+            {"Europe Central", "CE"},
+            {"Europe West" , "WE" },
             {"North America East", "EA" },
             {"North America West", "WA" },
             {"South America", "SA" },
